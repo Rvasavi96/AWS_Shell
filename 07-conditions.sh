@@ -18,3 +18,8 @@ exit 1
 else 
 echo "installation of mysql is a success"
 fi
+
+##Exit status imp for interview 
+$?--->it will store the previous command status 
+$?--->0  then the previous command is success 
+$?--->1 then the previous command is failure 
